@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-# Load the video
+# Load the video url = https://vod-progressive.akamaized.net/exp=1709888873~acl=%2Fvimeo-prod-src-reg-us-east1%2Fvideos%2F2548958987~hmac=f5bc60b32ed18bcf920358840b1bf5b2dc6f5de426ccadc054156877bb90edd6/vimeo-prod-src-reg-us-east1/videos/2548958987?download=1&filename=pexels-ron-lach-7540501+%28Original%29.mp4&source=1
 video = cv2.VideoCapture("pexels-ron-lach-7540501 (Original).mp4")
 
 # Check if the video opened successfully
